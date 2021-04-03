@@ -20,30 +20,25 @@ export default function Index() {
   return (
     <body onLoad={App}>
       <IndexNavbar fixed />
-       <img
-          className="absolute"
-          src={require("assets/img/register_bg_2.png")}
-          alt="..."
-        />
-      <section   className="header relative pt-16 items-center flex h-screen max-h-860-px">
+      <section className="header relative pt-16 items-center flex h-screen max-h-860-px">
         <div className="container mx-auto items-center flex flex-wrap">
-          <div>
-          </div>
-          <div className="w-2/3 m-auto px-4">
+          <div className="w-full md:w-8/12 lg:w-6/12 xl:w-6/12 px-4">
             <div className="pt-32 sm:pt-0">
-              <h2 id="name" className="font-semibold text-xl md:text-4xl text-gray-700">
-               Azimjon Bekmuratov - FRONTEND DEVELOPER 
+              <h2 className="font-semibold text-4xl text-gray-700">
+                Azimjon Bekmuratov - FRONTEND DEVELOPER 
               </h2>
-              <p className="mt-4 text-lg leading-relaxed text-gray-600 text" >
-              Hi! My name is Azimjon. I’m a Frontend developer (React, Next) with more than 3 month of professional experience.
+              <p className="mt-4 text-lg leading-relaxed text-gray-600 text">
+              Hi! My name is Azimjon. I’m a Frontend developer (React, Next) with more than 5 month of professional experience.
               Feel free to get in touch with me if you have any questions. I am looking forward to working with you!
               </p>
-              <div className="mt-12">
-              </div>
             </div>
           </div>
         </div>
-        
+        <img
+          className="absolute top-0 b-auto right-0 pt-16 sm:w-6/12 -mt-48 sm:mt-0 w-10/12 max-h-860-px"
+          src={require("assets/img/pattern_nextjs.png")}
+          alt="..."
+        />
       </section>
 
       <section className="mt-48 md:mt-40 pb-40 relative bg-gray-200">
